@@ -1,1 +1,18 @@
+first clone the file from git to vs code via folder 
 
+command is: git clone(the link of the file from repo c&p)
+ after clone the change drive location to access the file in the new repo solder
+ commad is: cd new-repo
+now the new file access is connected
+
+to add a file in the git repo via vs
+create a file in the new repo folder name"text2.txt"
+then in terminal the copy the file in the staging are which is waiting area 
+command is: git add test2.txt
+
+check the status command is: git status
+its unsaved to save this 
+
+command is : git commit test2.txt 
+now its saved in the local  to save in repo 
+command is : git push
